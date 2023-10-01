@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <!-- Set the page title -->
+    <title>Assignment 01 - To Be Completed</title>
+
+    
+    <!-- Set the charset we're using to UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Set the screens default zoom / scale to 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Specifies the document mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- CSS -->
+    <!-- The following CSS has been added so that the page
+    doesn't look super awful -->
+    <!-- Ignore everything in the <style> tag for now -->
+    <!-- We will learn about CSS later in the course -->
+    <style>
+      /*
+        These styles set the font, font-size, and add a
+        little bit of space between lines
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      /*
+        These styles make sure that any super wide images
+        don't overflow the page width
+      */
+      img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+    <!--
+
+      LIST ANY CITATIONS HERE
+
+        * A
+        * B
+
+    -->
+
+    <!--
+
+      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page Title</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file (if any) -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://media.istockphoto.com/id/1180836844/vector/funny-cartoon-illustration-of-a-bitten-cookie.jpg?s=612x612&w=0&k=20&c=GuL8HuXMpP0YtEfcdm0E33ql6i902pTBQWs6mrplAIo=" alt="Logo">
+        </div>
+        <h1 id ="Home">Welcome To Cookie Cutter!</h1>
+
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <img src="https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg" alt="cookie-cutter">
+            <h2 id ="Home">Welcome to Our Website</h2>
+            <p>
+              Welcome to our delightful cookie bakery website! We're thrilled to have you here. At <strong>Cookie Cutter</strong>, 
+              we're passionate about creating irresistible cookies that are a treat for your taste buds and a feast for your eyes. 
+              Whether you're a longtime cookie aficionado or simply looking for a sweet indulgence, you've come to the right place. 
+              Explore our world of cookies and discover the joy of freshly baked goodness.
+            </p>
+        </section>
+        <section>
+          <h2>Table of Contents:</h2>
+            <ul>
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+            <li><a href="#flavour">New Flavours!</a>
+              <li><a href="#sell">What We Sell</a>
+                <li><a href="#faq">FAQ</a>
+                <li><a href="#price">Pricing Information</a>
+                  <li><a href="#form">Contact Us</a>
+              </li>
+            </ul>
+          </section>
+
+
+        <section>
+          <h2 id="about">About Us</h2>
+          <p>
+            At <strong>Cookie Cutter</strong>, 
+            baking isn't just a business; it's our way of spreading happiness one cookie at a time. Our journey began with a shared love for cookies and a commitment to quality. Our bakery has been crafting mouthwatering cookies that capture the essence of homemade goodness.
+            What sets us apart is our dedication to using the finest ingredients, 
+            perfected recipes, and a touch of creativity. We bake with love, and our mission is to bring smiles to your faces with every bite. Whether it's a classic chocolate chip cookie or an innovative flavor fusion, we put our heart and soul into every batch.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="flavour">New Flavours!</h2>
+          <ul>
+            <li>Red Valvet</li>
+              <li>Blueberry</li>
+                <li>Honey-nut Crumble</li>
+                 <li>Passionfruit</li>
+          </ul>
+        </section>
+
+        <section>
+        <h2 id="faq">FAQ</h2>
+          <p>We understand that you may have questions about our cookies and services. 
+            Here are some common inquiries and their answers:</p>
+          <ul>
+            <li>
+              Do you offer gluten-free or vegan cookies?
+            </li>
+            <p>Yes, we offer gluten-free and vegan options to accommodate dietary preferences. Please check our menu for availability.</p>
+            </li>
+            <li>
+              What is the shelf life of your cookies?
+            </li>
+            <p>Our cookies are freshly baked and best enjoyed within [24] days. For extended freshness, store them in an airtight container.
+            </p>
+            </li>
+            <li>
+              Can I place a custom order for a special event?
+            </li>
+            <p>Absolutely! We love creating personalized cookies for special occasions. Contact us to discuss your requirements.
+            </p>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="pricing">Pricing Information</h2>
+          <p>
+            Indulging in our delicious cookies is affordable and accessible. Here's an overview of our pricing structure:
+          </p>
+          <ul>
+          <li>
+            Classic Cookies: Starting at $3.50 per cookies
+          </li>
+          <li>
+            Gourmet Creations: Prices vary by flavor, starting at $4.50 per cookie.
+          </li>
+          <li>
+            Seasonal Specials: Pricing may vary based on seasonal availability.
+          </li>
+          <li>
+            Custom Orders: Prices depend on customization options and quantity.
+          </li>
+          <li>
+            Gift Sets: Prices vary based on packaging and cookie selection.
+          </li>
+          </ul>
+          <p>We believe that everyone should have the chance to savor our cookies, and we strive to offer competitive prices without compromising on quality.
+        </p>
+        </section>
+        <section class="form">
+            <h2 id = "form">Contact Us</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="https://www.cookiecreative.ca/wp-content/uploads/2019/01/cookiesheader.jpg" alt = "contact-us"
+
+        <h3 class="footer-site-name"> <strong>Cookie Cutter</strong></h3>
+        <nav>
+        <ul>
+          <li><a href="#Home">Home</a>
+          <li><a href="#about">About Us</a>
+          <li><a href="#contact">Contact Us</a>
+          </ul>
+        </nav>   
+        <p>&copy; 2023 Cookie Cutter. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
